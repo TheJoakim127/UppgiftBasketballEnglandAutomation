@@ -25,15 +25,15 @@ public class MyStepdefs {
             switch (browser.toLowerCase()) {
                 case "chrome":
                     driver = new ChromeDriver();
-                    System.out.println("Chrome driver loaded");
+                    System.out.println("Chrome driver is used");
                     break;
                 case "firefox":
                     driver = new FirefoxDriver();
-                    System.out.println("Firefox driver loaded");
+                    System.out.println("Firefox driver is used");
                     break;
                 case "edge":
                     driver = new EdgeDriver();
-                    System.out.println("Edge driver loaded");
+                    System.out.println("Edge driver is used");
                     break;
             }
             wait = new WebDriverWait(driver, Duration.ofSeconds(3));
