@@ -1,4 +1,4 @@
-Feature:Test of regristration of users
+Feature:Test of basketballengland registration users
 
   Scenario Outline: Add new user and everything should work.
     Given I am on basketballengland.co.uk on "<browser>"
