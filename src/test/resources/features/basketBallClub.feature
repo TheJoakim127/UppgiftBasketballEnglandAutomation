@@ -36,4 +36,4 @@ Feature:Test of basketballengland registration users
       | browser | date of birth | first name | last name | password | confirmed password | terms accepted | error message |
       | chrome  |05/05/1996 | Jocke |  | test12345 | test12345 | true | Last Name is required |
       | firefox  |01/05/1992 | Henrik | Stormare | test12345 | test1234 | true | Password did not match |
-      | chrome  |15/08/1998 | Daniel | Andersson | testsss15 |testsss15 | false | You must confirm that you have read and accepted our Terms and Conditions |
+      | edge  |15/08/1998 | Daniel | Andersson | testsss15 |testsss15 | false | You must confirm that you have read and accepted our Terms and Conditions |
